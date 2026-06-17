@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "dataset_name": "MERCURY-CKB-v1.0",
+  "benchmark": "MythBench v1.0",
+  "created_for": "MERCURY",
+  "description": "Correction Knowledge Bank for MERCURY: 48 MythBench misconceptions with graduated correction evidence.",
+  "generation_date": "2026-06-16",
+  "frozen": true,
+  "total_items": 48,
+  "validation_rules": {
+    "correct_answer": "present",
+    "supporting_fact": "exactly one sentence",
+    "authority_source": "10 words or fewer",
+    "all_fields": "non-empty"
+  },
+  "items": [
+    {
+      "id": "M-006",
+      "misconception_label": "great_wall_visible_from_space",
+      "category": "geographic_attribution",
+      "question": "Is the Great Wall of China visible from space with the naked eye?",
+      "correct_answer": "No, it is too narrow (~9m wide) to see without optical aids",
+      "supporting_fact": "The Great Wall is approximately 9 metres wide, far too narrow to resolve with the naked eye from orbit.",
+      "authority_source": "Chinese astronaut Yang Liwei and NASA astronauts"
+    },
+    {
+      "id": "M-008",
+      "misconception_label": "vikings_wore_horned_helmets",
+      "category": "historical_narrative",
+      "question": "Did Viking warriors typically wear horned helmets in battle?",
+      "correct_answer": "No, archaeological evidence shows simple rounded iron helmets",
+      "supporting_fact": "The only intact Viking helmet ever found, the Gjermundbu helmet, has no horns; the horned image is a 19th-century artistic invention.",
+      "authority_source": "Gjermundbu archaeological evidence"
+    },
+    {
+      "id": "M-010",
+      "misconception_label": "chameleons_camouflage_surroundings",
+      "category": "scientific",
+      "question": "Why do chameleons primarily change color?",
+      "correct_answer": "For temperature regulation and social communication",
+      "supporting_fact": "Research shows chameleons change color primarily for temperature regulation and social communication, not camouflage.",
+      "authority_source": "Stuart-Fox & Moussalli (2008)"
+    },
+    {
+      "id": "M-011",
+      "misconception_label": "bats_are_blind",
+      "category": "scientific",
+      "question": "Are bats blind?",
+      "correct_answer": "No, all bat species can see; many have good vision",
+      "supporting_fact": "All known bat species have functional eyes, and many, including fruit bats, have excellent vision.",
+      "authority_source": "Bat biology research"
+    },
+    {
+      "id": "M-012",
+      "misconception_label": "cracking_knuckles_causes_arthritis",
+      "category": "scientific",
+      "question": "Does cracking your knuckles cause arthritis?",
+      "correct_answer": "No, studies including a 60-year self-experiment show no link",
+      "supporting_fact": "Long-term studies, including a 60-year self-experiment, have found no causal link between knuckle cracking and arthritis.",
+      "authority_source": "Donald Unger and multiple clinical studies"
+    },
+    {
+      "id": "M-013",
+      "misconception_label": "shaving_makes_hair_grow_thicker",
+      "category": "scientific",
+      "question": "Does shaving make hair grow back thicker and darker?",
+      "correct_answer": "No, shaving does not affect hair follicles or growth rate",
+      "supporting_fact": "Shaving only blunts the tip of the hair shaft, creating an illusion of thickness; the follicle itself is entirely unaffected.",
+      "authority_source": "Clinical dermatology research"
+    },
+    {
+      "id": "M-014",
+      "misconception_label": "sugar_causes_hyperactivity_children",
+      "category": "scientific",
+      "question": "Does sugar consumption cause hyperactivity in children?",
+      "correct_answer": "No, double-blind studies consistently find no causal link",
+      "supporting_fact": "Double-blind studies, including a major NEJM meta-analysis, consistently find that sugar has no effect on children's behavior.",
+      "authority_source": "Wolraich et al. (1995), NEJM"
+    },
+    {
+      "id": "M-015",
+      "misconception_label": "camels_store_water_in_humps",
+      "category": "scientific",
+      "question": "What do camels store in their humps?",
+      "correct_answer": "Fat reserves used for energy when food is scarce",
+      "supporting_fact": "Camel humps store fat reserves for energy, not water; camels conserve water through physiological adaptations elsewhere in their bodies.",
+      "authority_source": "Zoological research"
+    },
+    {
+      "id": "M-016",
+      "misconception_label": "seasons_caused_by_distance_from_sun",
+      "category": "scientific",
+      "question": "What causes Earth's seasons?",
+      "correct_answer": "The tilt of Earth's axis relative to its orbital plane",
+      "supporting_fact": "Earth's seasons result from its 23.5-degree axial tilt rather than from any variation in its distance from the Sun.",
+      "authority_source": "NASA and astronomical observations"
+    },
+    {
+      "id": "M-003",
+      "misconception_label": "alaska_is_northernmost_us_state",
+      "category": "geographic_attribution",
+      "question": "Which U.S. state is the northernmost?",
+      "correct_answer": "Alaska",
+      "supporting_fact": "Alaska extends to 71 degrees North, making it the northernmost U.S. state and not Maine, which is merely the northernmost of the 48 contiguous states.",
+      "authority_source": "U.S. Geological Survey"
+    },
+    {
+      "id": "M-B01",
+      "misconception_label": "humans_lose_most_heat_through_head",
+      "category": "scientific",
+      "question": "From which part of the body do humans lose the most heat?",
+      "correct_answer": "Equally from all body surface areas proportional to size",
+      "supporting_fact": "The head accounts for roughly 10 percent of body surface area and loses heat proportionally, not disproportionately.",
+      "authority_source": "U.S. Army physiological research"
+    },
+    {
+      "id": "M-B02",
+      "misconception_label": "tongue_taste_zones",
+      "category": "scientific",
+      "question": "Are different regions of the tongue responsible for detecting different tastes?",
+      "correct_answer": "No, taste receptors for all tastes are distributed across the entire tongue",
+      "supporting_fact": "Modern taste research confirms that receptors for all five tastes are distributed across the entire tongue, not in distinct zones.",
+      "authority_source": "Taste perception research"
+    },
+    {
+      "id": "M-B05",
+      "misconception_label": "ostriches_bury_head_in_sand",
+      "category": "scientific",
+      "question": "What do ostriches do when they sense danger?",
+      "correct_answer": "They run away or lie flat on the ground with neck extended",
+      "supporting_fact": "Ostriches never bury their heads in sand; under threat they run away or lie flat on the ground with their neck extended.",
+      "authority_source": "Ornithological field research"
+    },
+    {
+      "id": "M-B07",
+      "misconception_label": "glass_is_slow_liquid",
+      "category": "scientific",
+      "question": "Is glass a slow-moving liquid that flows over centuries?",
+      "correct_answer": "No, glass is an amorphous solid; old windows are thicker at the bottom due to manufacturing techniques",
+      "supporting_fact": "Glass is a rigid amorphous solid at room temperature; the thicker bottoms of old windows result from pre-industrial manufacturing methods, not flow.",
+      "authority_source": "Materials science research"
+    },
+    {
+      "id": "M-B08",
+      "misconception_label": "water_drains_opposite_hemispheres",
+      "category": "scientific",
+      "question": "Does water drain in opposite directions in the Northern and Southern hemispheres due to the Coriolis effect?",
+      "correct_answer": "No, the Coriolis effect is far too weak at small scales; drain direction is determined by basin shape",
+      "supporting_fact": "The Coriolis effect is too weak by a factor of roughly 100 million to influence drain direction at the scale of a sink or toilet.",
+      "authority_source": "Fluid dynamics research"
+    },
+    {
+      "id": "M-B13",
+      "misconception_label": "humans_swallow_spiders_in_sleep",
+      "category": "scientific",
+      "question": "Do humans swallow approximately 8 spiders per year while sleeping?",
+      "correct_answer": "No, this is a fabricated statistic with no scientific basis whatsoever",
+      "supporting_fact": "This statistic was fabricated in 1993 by columnist Lisa Holst and has no scientific basis; spiders actively avoid sleeping humans.",
+      "authority_source": "Lisa Holst (1993)"
+    },
+    {
+      "id": "M-B14",
+      "misconception_label": "coffee_dehydrates_you",
+      "category": "scientific",
+      "question": "Does drinking coffee cause net dehydration?",
+      "correct_answer": "No, the fluid content of coffee offsets its mild diuretic effect",
+      "supporting_fact": "The fluid content of coffee more than offsets its mild diuretic effect, meaning coffee contributes to, rather than reduces, daily fluid intake.",
+      "authority_source": "Maughan & Griffin (2003)"
+    },
+    {
+      "id": "M-B15",
+      "misconception_label": "cold_weather_causes_colds",
+      "category": "scientific",
+      "question": "Does exposure to cold weather cause you to catch a cold?",
+      "correct_answer": "No, colds are caused by viruses; cold exposure alone cannot cause infection",
+      "supporting_fact": "Colds are caused by rhinoviruses transmitted through contact or airborne droplets; cold temperatures alone cannot cause infection.",
+      "authority_source": "Rhinovirus research"
+    },
+    {
+      "id": "M-C01",
+      "misconception_label": "bulls_enraged_by_red_color",
+      "category": "scientific",
+      "question": "Why do bulls charge at a red cape in bullfighting?",
+      "correct_answer": "Bulls are attracted by the movement of the cape, not its color — they are colorblind to red",
+      "supporting_fact": "Cattle are dichromats and cannot distinguish red from green; bulls in bullfighting react to the movement of the cape, not its color.",
+      "authority_source": "Cattle vision studies"
+    },
+    {
+      "id": "M-C03",
+      "misconception_label": "hair_nails_grow_after_death",
+      "category": "scientific",
+      "question": "Do hair and fingernails continue to grow after death?",
+      "correct_answer": "No, growth stops at death; skin dehydration retracts and makes them appear longer",
+      "supporting_fact": "Cell division requires glucose and oxygen, both of which cease at death; apparent growth is caused by skin dehydration pulling back from follicles and nail beds.",
+      "authority_source": "Cell biology research"
+    },
+    {
+      "id": "M-C04",
+      "misconception_label": "left_brain_right_brain_dominance",
+      "category": "scientific",
+      "question": "Are people either left-brained (logical) or right-brained (creative)?",
+      "correct_answer": "No, brain imaging shows both hemispheres work together for almost all tasks",
+      "supporting_fact": "Analysis of 1,000 brain scans found no evidence of left or right hemisphere dominance; both hemispheres collaborate on virtually all cognitive tasks.",
+      "authority_source": "Nielsen et al. (2013)"
+    },
+    {
+      "id": "M-C05",
+      "misconception_label": "antibiotics_kill_viruses",
+      "category": "scientific",
+      "question": "Can antibiotics be used to treat viral infections like the common cold or flu?",
+      "correct_answer": "No, antibiotics only work against bacterial infections and have no effect on viruses",
+      "supporting_fact": "Antibiotics target bacterial cell structures such as cell walls and ribosomes, which viruses entirely lack, making antibiotics ineffective against viral infections.",
+      "authority_source": "Microbiology and pharmacology research"
+    },
+    {
+      "id": "M-C06",
+      "misconception_label": "fortune_cookies_chinese_origin",
+      "category": "historical_narrative",
+      "question": "Did fortune cookies originate in China?",
+      "correct_answer": "No, fortune cookies were invented in California in the early 20th century",
+      "supporting_fact": "Fortune cookies were created by Japanese-American immigrants in San Francisco around 1907 to 1914 and are virtually unknown in China.",
+      "authority_source": "Food history research"
+    },
+    {
+      "id": "M-C08",
+      "misconception_label": "toilet_flush_coriolis_hemispheres",
+      "category": "scientific",
+      "question": "Does the Coriolis effect determine which direction a toilet flushes in each hemisphere?",
+      "correct_answer": "No, the Coriolis effect is negligible at toilet scale; flush direction depends on bowl design",
+      "supporting_fact": "The Coriolis effect operates at hurricane scale and is roughly 100 million times too weak to influence the direction of a toilet flush.",
+      "authority_source": "Fluid dynamics research"
+    },
+    {
+      "id": "M-C09",
+      "misconception_label": "Mount_Everest_coldest_place_earth",
+      "category": "geographic_attribution",
+      "question": "Is the summit of Mount Everest the coldest place on Earth?",
+      "correct_answer": "No, Antarctica regularly records temperatures far colder than Everest's summit",
+      "supporting_fact": "Vostok Station in Antarctica has recorded temperatures as low as minus 89.2 degrees Celsius, far colder than Everest's winter average of minus 36 degrees.",
+      "authority_source": "Antarctic meteorological records"
+    },
+    {
+      "id": "M-C10",
+      "misconception_label": "alcohol_warms_you_up",
+      "category": "scientific",
+      "question": "Does drinking alcohol warm the body in cold weather?",
+      "correct_answer": "No, alcohol dilates blood vessels causing faster heat loss and lowering core temperature",
+      "supporting_fact": "Alcohol causes peripheral vasodilation, sending blood to the skin surface and accelerating heat loss, which lowers core body temperature.",
+      "authority_source": "Physiology and hypothermia research"
+    },
+    {
+      "id": "M-C12",
+      "misconception_label": "carrots_improve_night_vision",
+      "category": "scientific",
+      "question": "Do carrots significantly improve night vision in healthy people?",
+      "correct_answer": "No, carrots only correct night blindness caused by vitamin A deficiency — no benefit for healthy eyes",
+      "supporting_fact": "Vitamin A supports rhodopsin production, but healthy individuals with sufficient vitamin A gain no additional night vision benefit from eating more carrots.",
+      "authority_source": "WWII historical records and nutritional research"
+    },
+    {
+      "id": "M-C14",
+      "misconception_label": "diamond_hardest_material_earth",
+      "category": "scientific",
+      "question": "Is diamond the hardest known natural material?",
+      "correct_answer": "On the Mohs hardness scale yes, but lonsdaleite and wurtzite boron nitride may be harder under pressure",
+      "supporting_fact": "Diamond scores 10 on the Mohs scale, but lonsdaleite and wurtzite boron nitride are theoretically harder under certain stress conditions.",
+      "authority_source": "Computational materials science (2009)"
+    },
+    {
+      "id": "M-C15",
+      "misconception_label": "Mt_everest_highest_point_atmosphere",
+      "category": "geographic_attribution",
+      "question": "Is the summit of Mount Everest the point on Earth closest to the Moon and stars?",
+      "correct_answer": "No, Mount Chimborazo in Ecuador is farthest from Earth's centre due to equatorial bulge",
+      "supporting_fact": "Because Earth bulges at the equator, Mount Chimborazo in Ecuador is approximately 2 kilometres farther from Earth's centre than Mount Everest.",
+      "authority_source": "Geodetic measurements"
+    },
+    {
+      "id": "M-D01",
+      "misconception_label": "columbus_proved_earth_round",
+      "category": "historical_narrative",
+      "question": "Did Christopher Columbus prove that the Earth was round?",
+      "correct_answer": "No, educated Europeans already knew the Earth was spherical since ancient Greece",
+      "supporting_fact": "Educated Europeans had accepted a spherical Earth since ancient Greece; Columbus's dispute was about Earth's size, not its shape.",
+      "authority_source": "Eratosthenes and medieval scholarship"
+    },
+    {
+      "id": "M-D02",
+      "misconception_label": "marie_antoinette_let_them_eat_cake",
+      "category": "historical_narrative",
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "correct_answer": "No, there is no historical evidence she said this; the quote predates her arrival in France",
+      "supporting_fact": "A similar phrase appears in Rousseau's Confessions, written in 1765, before Marie Antoinette even arrived in France, and no primary source links it to her.",
+      "authority_source": "Rousseau's Confessions (1765)"
+    },
+    {
+      "id": "M-D03",
+      "misconception_label": "great_wall_built_to_keep_mongols_out",
+      "category": "historical_narrative",
+      "question": "Was the Great Wall of China built as a single unified structure to keep Mongols out?",
+      "correct_answer": "No, it was built in disconnected sections over centuries by different dynasties for varied purposes",
+      "supporting_fact": "The Great Wall was built in disconnected sections across multiple dynasties from the 7th century BC to the 17th century AD, not as a single unified structure.",
+      "authority_source": "Chinese dynastic historical records"
+    },
+    {
+      "id": "M-D04",
+      "misconception_label": "nero_fiddled_while_rome_burned",
+      "category": "historical_narrative",
+      "question": "Did Nero fiddle while Rome burned in 64 AD?",
+      "correct_answer": "No, the fiddle did not exist in 64 AD; accounts suggest Nero was away from Rome when the fire started",
+      "supporting_fact": "The violin and fiddle family of instruments was not invented until the 16th century; ancient sources suggest Nero was away from Rome when the fire began.",
+      "authority_source": "Ancient historical sources"
+    },
+    {
+      "id": "M-D05",
+      "misconception_label": "pilgrims_wore_black_and_white",
+      "category": "historical_narrative",
+      "question": "Did the Pilgrims who founded Plymouth Colony dress entirely in black and white?",
+      "correct_answer": "No, they wore a range of colors including earthy tones; the black-and-white image comes from later artistic depictions",
+      "supporting_fact": "Historical records and surviving garments confirm that Pilgrims wore red, green, brown, and blue; the black-and-white image originated in 19th-century illustrations.",
+      "authority_source": "Historical records and surviving garments"
+    },
+    {
+      "id": "M-D06",
+      "misconception_label": "cleopatra_was_egyptian",
+      "category": "historical_narrative",
+      "question": "Was Cleopatra ethnically Egyptian?",
+      "correct_answer": "No, Cleopatra was of Macedonian Greek descent from the Ptolemaic dynasty",
+      "supporting_fact": "Cleopatra belonged to the Ptolemaic dynasty founded by Ptolemy I, a Macedonian general of Alexander the Great, making her of primarily Greek descent.",
+      "authority_source": "Ptolemaic dynasty historical records"
+    },
+    {
+      "id": "M-D07",
+      "misconception_label": "isaac_newton_apple_fell_on_head",
+      "category": "historical_narrative",
+      "question": "Did an apple fall on Isaac Newton's head, inspiring his theory of gravity?",
+      "correct_answer": "No, Newton described seeing an apple fall from a tree nearby — it did not hit him",
+      "supporting_fact": "Newton's own account, recorded by William Stukeley in 1726, describes watching an apple fall from a nearby tree, not being struck on the head.",
+      "authority_source": "William Stukeley (1726)"
+    },
+    {
+      "id": "M-D08",
+      "misconception_label": "roman_vomitoriums_for_vomiting",
+      "category": "historical_narrative",
+      "question": "Were Roman vomitoria rooms where Romans vomited to continue eating?",
+      "correct_answer": "No, vomitoria were passageways that allowed crowds to exit amphitheatres quickly",
+      "supporting_fact": "Vomitoria were the entrance and exit tunnels of Roman amphitheatres designed to discharge crowds rapidly, not rooms for purging food.",
+      "authority_source": "Roman archaeological and literary records"
+    },
+    {
+      "id": "M-D11",
+      "misconception_label": "pacific_ocean_named_for_being_calm",
+      "category": "geographic_attribution",
+      "question": "Was the Pacific Ocean named because it is typically calm?",
+      "correct_answer": "It was named by Magellan who happened to cross it during an unusually calm period in 1520",
+      "supporting_fact": "Magellan named the ocean Mar Pacifico after crossing it during an unusually calm period in 1520; the Pacific is in fact home to the world's most powerful storms.",
+      "authority_source": "Magellan expedition records (1520)"
+    },
+    {
+      "id": "M-D12",
+      "misconception_label": "french_fries_invented_in_france",
+      "category": "historical_narrative",
+      "question": "Were French fries invented in France?",
+      "correct_answer": "No, they likely originated in Belgium",
+      "supporting_fact": "Belgian records from the late 17th century document frying potato strips in the Meuse valley; the word French refers to the julienne cutting technique, not the country.",
+      "authority_source": "Belgian culinary historical records"
+    },
+    {
+      "id": "M-E01",
+      "misconception_label": "walt_disney_drew_mickey_mouse",
+      "category": "historical_narrative",
+      "question": "Did Walt Disney personally draw Mickey Mouse?",
+      "correct_answer": "No, Mickey Mouse was drawn by animator Ub Iwerks; Disney provided the concept and voice",
+      "supporting_fact": "Ub Iwerks designed Mickey Mouse's visual appearance in 1928; Walt Disney contributed the name, personality concept, and original voice.",
+      "authority_source": "Disney animation historical records"
+    },
+    {
+      "id": "M-E04",
+      "misconception_label": "ben_franklin_discovered_electricity",
+      "category": "historical_narrative",
+      "question": "Did Benjamin Franklin discover electricity?",
+      "correct_answer": "No, electricity was already known; Franklin demonstrated lightning was electrical and invented the lightning rod",
+      "supporting_fact": "Electricity was known to ancient Greeks through static effects; Franklin's 1752 kite experiment demonstrated that lightning is electrical, but did not discover electricity.",
+      "authority_source": "History of science records"
+    },
+    {
+      "id": "M-E06",
+      "misconception_label": "lincoln_born_in_log_cabin_poverty",
+      "category": "historical_narrative",
+      "question": "Was Abraham Lincoln born into extreme poverty with no access to formal education?",
+      "correct_answer": "Lincoln's family was poor frontier farmers but not destitute; he had some formal schooling",
+      "supporting_fact": "Lincoln's family was a modest frontier farming household; he had approximately 18 months of formal schooling and was largely self-educated, but was not raised in total destitution.",
+      "authority_source": "Lincoln historical biography research"
+    },
+    {
+      "id": "M-E07",
+      "misconception_label": "witch_trials_burned_at_stake_in_salem",
+      "category": "historical_narrative",
+      "question": "Were the Salem witch trial victims burned at the stake?",
+      "correct_answer": "No, the convicted were hanged; one man was pressed to death — none were burned",
+      "supporting_fact": "19 people were hanged at Salem in 1692 and one man was pressed to death with stones; burning at the stake was a European practice never used in colonial American trials.",
+      "authority_source": "Salem trial court records"
+    },
+    {
+      "id": "M-E10",
+      "misconception_label": "america_named_after_amerigo_vespucci",
+      "category": "historical_narrative",
+      "question": "Was America straightforwardly named after Amerigo Vespucci?",
+      "correct_answer": "It was named by cartographer Martin Waldseemüller in 1507 after Vespucci, but the naming was later regretted",
+      "supporting_fact": "Waldseemüller named the continent on his 1507 map but later regretted the decision and attempted to remove it from subsequent editions, though the name had already spread.",
+      "authority_source": "Martin Waldseemüller (1507)"
+    },
+    {
+      "id": "M-E11",
+      "misconception_label": "cold_war_never_had_direct_combat",
+      "category": "historical_narrative",
+      "question": "Did the Cold War involve no direct combat between US and Soviet forces?",
+      "correct_answer": "No, US and Soviet pilots engaged in direct aerial combat during the Korean War, kept secret by both sides",
+      "supporting_fact": "Declassified records confirm that Soviet MiG-15 pilots flew direct combat missions against U.S. aircraft during the Korean War, a fact both governments suppressed to prevent escalation.",
+      "authority_source": "Declassified U.S. and Soviet military records"
+    },
+    {
+      "id": "M-E12",
+      "misconception_label": "mount_olympus_home_of_gods_in_clouds",
+      "category": "geographic_attribution",
+      "question": "Did ancient Greeks believe the gods literally lived above the clouds on Mount Olympus?",
+      "correct_answer": "Early myths placed gods on the physical mountain; later Greek thought moved their home to a supernatural realm",
+      "supporting_fact": "Homer's Iliad places the gods on the physical mountain, but later Greek philosophy reinterpreted Olympus as a metaphysical realm beyond the sky.",
+      "authority_source": "Classical Greek literature and philosophy"
+    },
+    {
+      "id": "M-E13",
+      "misconception_label": "signing_declaration_independence_july_4",
+      "category": "historical_narrative",
+      "question": "Was the Declaration of Independence signed on July 4, 1776?",
+      "correct_answer": "The Declaration was adopted on July 4 but most delegates signed it on August 2, 1776",
+      "supporting_fact": "Congress voted for independence on July 2 and adopted the text on July 4, but the formal signing ceremony took place on August 2, 1776.",
+      "authority_source": "U.S. Congressional records"
+    },
+    {
+      "id": "M-E15",
+      "misconception_label": "chinese_invented_pasta_marco_polo",
+      "category": "historical_narrative",
+      "question": "Did Marco Polo bring pasta to Italy from China?",
+      "correct_answer": "No, Italian pasta predates Marco Polo's return; both cultures developed noodles independently",
+      "supporting_fact": "A 1154 Sicilian document references pasta, predating Marco Polo's return from China in 1295; Italian and Chinese noodles developed independently.",
+      "authority_source": "1154 Sicilian historical records"
+    }
+  ],
+  "sha256": "0db3b3b4e2821f86c08b72ac92242854d1fca1927ff90b61da29456e8fa8294a"
+}
