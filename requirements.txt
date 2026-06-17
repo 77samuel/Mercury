@@ -1,1 +1,25 @@
 
+# MERCURY — Requirements
+# Tested on Python 3.12.13, CUDA 12.8, NVIDIA Tesla T4
+
+# Core ML
+torch==2.10.0
+transformers==5.0.0
+bitsandbytes>=0.46.1
+accelerate>=0.26.0
+
+# Data & analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+datasets>=2.14.0
+
+# Visualisation
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+
+# HuggingFace
+huggingface_hub>=0.20.0
+
+# Utilities
+tqdm>=4.65.0
