@@ -1,0 +1,11 @@
+model,qid,category,pattern
+TinyLlama-1.1B,M-008,historical_narrative,0→1→1→0→0
+TinyLlama-1.1B,M-B15,scientific,0→1→1→0→1
+TinyLlama-1.1B,M-C09,geographic_attribution,0→1→0→0→0
+TinyLlama-1.1B,M-D06,historical_narrative,1→0→1→1→1
+Qwen2.5-1.5B,M-010,scientific,0→0→1→0→1
+Qwen2.5-1.5B,M-D06,historical_narrative,1→0→0→0→0
+Phi-2,M-016,scientific,1→0→0→0→0
+Phi-2,M-D12,historical_narrative,0→1→0→0→0
+Phi-2,M-E06,historical_narrative,1→0→1→0→1
+Qwen2.5-7B,M-E12,geographic_attribution,1→1→0→0→1

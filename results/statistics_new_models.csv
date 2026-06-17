@@ -1,0 +1,2 @@
+experiment,comparison,model,b,c,p_exact,sig,protocol_a_pct,protocol_b_pct
+NM2,ProtocolA_vs_B,Gemma-2-9B-IT,12,0,0.00048828125,***,87.5,62.5

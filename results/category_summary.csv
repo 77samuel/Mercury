@@ -1,0 +1,13 @@
+category,model,n_held,mean_mct,rigid_rate,revision_rate
+geographic_attribution,Phi-2,2,,100.0,0.0
+geographic_attribution,Qwen2.5-1.5B,5,1.25,20.0,80.0
+geographic_attribution,Qwen2.5-7B,4,1.0,25.0,75.0
+geographic_attribution,TinyLlama-1.1B,2,1.0,50.0,50.0
+historical_narrative,Phi-2,10,1.43,30.0,70.0
+historical_narrative,Qwen2.5-1.5B,16,1.54,18.8,81.2
+historical_narrative,Qwen2.5-7B,4,2.0,25.0,75.0
+historical_narrative,TinyLlama-1.1B,7,1.0,57.1,42.9
+scientific,Phi-2,14,1.0,28.6,71.4
+scientific,Qwen2.5-1.5B,16,1.57,12.5,87.5
+scientific,Qwen2.5-7B,9,1.0,33.3,66.7
+scientific,TinyLlama-1.1B,11,1.17,45.5,54.5

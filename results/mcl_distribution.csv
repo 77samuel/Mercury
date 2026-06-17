@@ -1,0 +1,16 @@
+model,MCL,count
+Phi-2,1,15
+Phi-2,2,1
+Phi-2,3,1
+Phi-2,5,9
+Qwen2.5-1.5B,1,20
+Qwen2.5-1.5B,2,8
+Qwen2.5-1.5B,3,1
+Qwen2.5-1.5B,4,2
+Qwen2.5-1.5B,5,6
+Qwen2.5-7B,1,9
+Qwen2.5-7B,2,3
+Qwen2.5-7B,5,5
+TinyLlama-1.1B,1,9
+TinyLlama-1.1B,2,1
+TinyLlama-1.1B,5,10

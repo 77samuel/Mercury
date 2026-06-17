@@ -1,0 +1,13 @@
+experiment,model,b,c,p_exact,sig,comparison
+E1,TinyLlama-1.1B,9,2,0.0654296875,ns,
+E1,Qwen2.5-1.5B,22,0,4.76837158203125e-07,***,
+E1,Phi-2,19,0,3.814697265625e-06,***,
+E1,Qwen2.5-7B,10,2,0.03857421875,*,
+E4,TinyLlama-1.1B,2,1,1.0,ns,V1_vs_v2
+E4,TinyLlama-1.1B,0,0,1.0,ns,V1_vs_v3
+E4,Qwen2.5-1.5B,2,2,1.0,ns,V1_vs_v2
+E4,Qwen2.5-1.5B,1,2,1.0,ns,V1_vs_v3
+E4,Phi-2,2,1,1.0,ns,V1_vs_v2
+E4,Phi-2,1,2,1.0,ns,V1_vs_v3
+E4,Qwen2.5-7B,1,0,1.0,ns,V1_vs_v2
+E4,Qwen2.5-7B,0,1,1.0,ns,V1_vs_v3

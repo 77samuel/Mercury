@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "ckpt_every": 20,
+  "models": [
+    "meta-llama/Llama-3.1-8B-Instruct"
+  ],
+  "mythbench_path": "/kaggle/input/datasets/samuelstephen77/mercury-ckb/MythBench_v10.json",
+  "ckb_path": "/kaggle/input/datasets/samuelstephen77/mercury-ckb/correction_knowledge_bank.json",
+  "python": "3.12.13",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "transformers": "5.0.0",
+  "torch": "2.10.0+cu128",
+  "scipy": "1.16.3",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false
+}

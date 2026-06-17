@@ -1,0 +1,5 @@
+model,n_items,baseline_acc_pct,n_misconceptions_held,revision_rate_pct,mean_mct,rigid_rate_pct,instability_rate_pct
+TinyLlama-1.1B,48,58.3,20,50.0,1.1,50.0,15.0
+Qwen2.5-1.5B,48,22.9,37,83.8,1.52,16.2,2.7
+Phi-2,48,45.8,26,65.4,1.18,34.6,3.8
+Qwen2.5-7B,48,64.6,17,70.6,1.25,29.4,0.0
